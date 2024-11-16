@@ -11,7 +11,7 @@ function Home() {
   const fetchData = async () => {
     try {
 
-      const placeholderData = await axios.get('https://jsonplaceholder.typicode.com/posts');
+      const placeholderData = await axios.get('http://localhost:5000/posts');
 
       const localData = await axios.get('http://localhost:5000/posts');
    
